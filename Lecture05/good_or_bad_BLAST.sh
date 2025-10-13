@@ -1,9 +1,14 @@
 !#/bin/bash
+
 unset IFS
+
 rm *.blastn
+
 cut -f1,12 blastoutput2.out | grep -v "#" |
 while read bn1 bn2
 do
+
+#Evaluation step	
 	bn2=$(printf %0.f ${bn2})
 	if test ${bn2} -ge 300
 	then
