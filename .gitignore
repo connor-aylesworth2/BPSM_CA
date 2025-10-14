@@ -3,9 +3,4 @@ mypasswordsfile
 *.c
 *.log
 **/fq.gz
-mypasswordsfile
-*.pdf
-*.c
-*.log
-**/fq.gz
-!bowtio2.log
+!bowtie2.log
