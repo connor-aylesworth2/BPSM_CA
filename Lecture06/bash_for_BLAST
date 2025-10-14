@@ -1,4 +1,29 @@
-# list the subject accession for all HSPs
+#!/usr/bin/bash
 
-#sort blastoutput2 content into bash directories
+rm -f *exercise.out
+unset IFS
+unset dataline
+shortHSP=0
+hspcounter=0
+goodlines=${script_input}
 
+HSPs=()
+
+outfile="HSPscores.exercise.out"
+rm -f ${outfile}
+
+while read wholeine
+do
+	echo "Line: ${wholeline}"
+	if test "${wholeline:0:1}" != "#"
+		then
+		dataline=$((dataline+1))
+		echo "Line ${dataline} starts with ${wholeline:0:1}"
+		read Q_acc S_acc pc_identitiy alignment_legth mismatches gap_opens Qstart Q_end S_start S_end evalue bitscore <<< ${wholeline}
+
+		bitscore=$(printf "%.0f\n" ${bitscore})
+#lists subject accessions of HSPs
+		echo -e "${dataline}\t${Q_acc}\t${S_acc}" >> Subject_accessions.exercise.out
+	fi
+done < ${script_input}
+		
