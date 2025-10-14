@@ -1,0 +1,143 @@
+commit b5f57c4d30e5d6d5b4f4f36e4d08e68c82cbe329
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Sun Oct 12 19:01:45 2025 +0100
+
+    Finally getting around to pushing my old lecture exercises
+
+commit f597bf5800b0eac2354664b8e3a5968ba6f2e918
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 10 09:44:23 2025 +0100
+
+    adding people sqript
+
+commit a42169c5c821e196af94b153c0c8ce31c029137c
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 16:35:41 2025 +0100
+
+    Adding initial tar file
+
+commit 91ce6b90dabd4d99cc444dfd637584ee84819638
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 16:34:00 2025 +0100
+
+    CodeFiles all done and tar zipped
+
+commit ae15c4734e2ec1cf01bb085bc17333b154a1b731
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 16:31:15 2025 +0100
+
+    First file added... ONE MORE TIME
+
+commit 2ab9cf4dfc2d9b8c7e0f113b4b569e8c784735c3
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 12:51:41 2025 +0100
+
+    this is nem.fasta command
+
+commit b624a22fa934ccb35a2f41592bd80bc25922eeb4
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 12:35:16 2025 +0100
+
+    First file added... again
+
+commit daed4da9dbabd9f10a577d0044a23b7479237ca5
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 12:04:56 2025 +0100
+
+    added nematode data from L6
+
+commit 004096d644e65c738aa6eb6f48762b3a3d240b90
+Author: connor-aylesworth2 <cjohnayle6@gmail.com>
+Date:   Fri Oct 3 11:43:03 2025 +0100
+
+    Added the blast output from lecture six to work on
+
+commit a344a67bdb675d35b40ea95caed272f001238314
+Author: connor_aylesworth <s2837739@ed.ac.uk>
+Date:   Tue Sep 30 12:12:57 2025 +0100
+
+    Decided to keep blastoutput2.out
+
+commit 2401153dff7076d936e6087fa880fbeceb3ae344
+Author: connor_aylesworth <s2837739@ed.ac.uk>
+Date:   Tue Sep 30 12:12:07 2025 +0100
+
+    Decided to keep myinputfile.tsv
+
+commit 411d23656ddb1bd68c29fc305d3c8626ed3a1e85
+Author: connor_aylesworth <s2837739@ed.ac.uk>
+Date:   Tue Sep 30 12:10:55 2025 +0100
+
+    First attempt at parsing BLAST data
+
+commit 1c149c341503934b712a2a55aee9a7c15725c8fa
+Author: connor_aylesworth <s2837739@ed.ac.uk>
+Date:   Tue Sep 30 11:10:36 2025 +0100
+
+    My first awk script, Lecture05
+
+commit f22656bd1bde5c4eaee74ea8f14fa9ae95dbcfdb
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:34:05 2025 +0100
+
+    Updated contents of tar, coolscript
+
+commit 577c63058b19875a0492e59332c6366fc68b3f2f
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:33:08 2025 +0100
+
+    I am not sure cool script is actually any good
+
+commit a19945b4dc2459e7ebf6b155834113117cf47e81
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:30:58 2025 +0100
+
+    Added my_cool_script
+
+commit 44c5106472135eb6cb4b861d9779aa804a34e670
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:30:05 2025 +0100
+
+    Third version of the someotherfile.sh shell script
+
+commit e35bcd9d490576cc61f741f7abce5b94125c43f1
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:29:14 2025 +0100
+
+    Updated version of tar
+
+commit 292eaa9db6268f119b4fa7b77ef330cd19f28b4c
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:28:40 2025 +0100
+
+    Second version of the someotherfile.sh shell script
+
+commit 67dd7200522509e1a408396a1f4b2ad47e5e3060
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:27:56 2025 +0100
+
+    Added the someotherfile.sh shell script
+
+commit 76427bb727f96bc480d0fef0bdb53bfd425ed5c5
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:25:47 2025 +0100
+
+    Additional motif files, and updated tar file
+
+commit a0bd0512d711fb05e6a109f7186dba0a8c617e4e
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:09:34 2025 +0100
+
+    Adding initial tar file
+
+commit 5e40a3a6360b75ff31233055dd72b587d4ff7911
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:08:26 2025 +0100
+
+    CodeFiles all done and tar zipped
+
+commit 03e5c25611b6da9e5472fecbadc2a40789ac6827
+Author: caylesworth <s2837739@ed.ac.uk>
+Date:   Fri Sep 26 11:04:44 2025 +0100
+
+    First file added
