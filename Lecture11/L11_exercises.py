@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #1
 #stores the given sequence in a variable for manipulation
 sequence = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
