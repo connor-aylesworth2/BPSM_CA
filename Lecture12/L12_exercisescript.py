@@ -62,16 +62,18 @@ non_cds_len = str(len(non_cds))
 cds_fasta_header = ">local_seq_cds_" + cds_len
 non_cds_fasta_header = ">local_seq_non_cds_" + non_cds_len
 
-#output the cds and non_cds of the local seq into two seperate fasta files
+#store the cds and non_cds of the local seq into two seperate vars
 cds_contents = cds_fasta_header + "\n" + cds
-cds_subseq = open(cds_fasta_header.replace(">","") + ".fasta", "w")
-cds_subseq.write(cds_contents)
-cds_subseq.close
+
+#cds_subseq = open(cds_fasta_header.replace(">","") + ".fasta", "w")
+#cds_subseq.write(cds_contents)
+#cds_subseq.close
 
 non_cds_contents = non_cds_fasta_header + "\n" + non_cds
-non_cds_subseq = open(non_cds_fasta_header.replace(">","") + ".fasta", "w")
-non_cds_subseq.write(non_cds_contents)
-non_cds_subseq.close
+
+#non_cds_subseq = open(non_cds_fasta_header.replace(">","") + ".fasta", "w")
+#non_cds_subseq.write(non_cds_contents)
+#non_cds_subseq.close
 
 #repeat the above process with the remote sec
 
@@ -79,23 +81,34 @@ non_cds_subseq.close
 #subprocess.call("esearch -db nucleotide -query \"AJ223353[accession]\" | efetch -format gb | grep \"CDS\" > remote_CDS.txt", shell=True)
 #29..409
 
-cds = rem_seq[29:409]
-non_cds = rem_seq[:29] + rem_seq[409:]
+rem_cds = rem_seq[29:409]
+rem_non_cds = rem_seq[:29] + rem_seq[409:]
 
 #get lengths of cds and non_cds and make fasta headers for their output files
-cds_len = str(len(cds))
-non_cds_len = str(len(non_cds))
+rem_cds_len = str(len(rem_cds))
+rem_non_cds_len = str(len(rem_non_cds))
 
-cds_fasta_header = ">remote_seq_cds_" + cds_len
-non_cds_fasta_header = ">remote_seq_non_cds_" + non_cds_len
+rem_cds_fasta_header = ">remote_seq_cds_" + rem_cds_len
+rem_non_cds_fasta_header = ">remote_seq_non_cds_" + rem_non_cds_len
 
-#output the cds and non_cds of the local seq into two seperate fasta files
-cds_contents = cds_fasta_header + "\n" + cds
-cds_subseq = open(cds_fasta_header.replace(">","") + ".fasta", "w")
-cds_subseq.write(cds_contents)
-cds_subseq.close
+#store the cds and non_cds of the remote seq into two seperate vars
+rem_cds_contents = rem_cds_fasta_header + "\n" + rem_cds
 
-non_cds_contents = non_cds_fasta_header + "\n" + non_cds
-non_cds_subseq = open(non_cds_fasta_header.replace(">","") + ".fasta", "w")
-non_cds_subseq.write(non_cds_contents)
-non_cds_subseq.close
+#cds_subseq = open(cds_fasta_header.replace(">","") + ".fasta", "w")
+#cds_subseq.write(cds_contents)
+#cds_subseq.close
+
+rem_non_cds_contents = rem_non_cds_fasta_header + "\n" + rem_non_cds
+
+#non_cds_subseq = open(non_cds_fasta_header.replace(">","") + ".fasta", "w")
+#non_cds_subseq.write(non_cds_contents)
+#non_cds_subseq.close
+
+#output CDSs and non-CDSs into two seperate fasta files
+all_CDSs = open("all_CDSs.fasta", "w")
+all_CDSs.write(cds_contents + "\n" + rem_cds_contents)
+all_CDSs.close()
+
+all_non_CDSs = open("all_non_CDSs.fasta", "w")
+all_non_CDSs.write(non_cds_contents + "\n" + rem_non_cds_contents)
+all_non_CDSs.close()
