@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/python
 
 #imports the necessary python libraries to run the code below
 import os, sys, subprocess
@@ -10,7 +10,7 @@ import os, sys, subprocess
 
 #store the contents of the local and remote seqs in seperate variables in proper
 #formats (all uppercase, no "\n"s, all DNA)
-local_connection = open("plain_genomic_seq.txt")
+local_connection = open("/localdisk/home/data/BPSM/Lecture12/plain_genomic_seq.txt")
 local_seq = local_connection.read().upper().rstrip("\n")
 
 remote_connection = open("remote_genomic_seq.txt")
@@ -81,8 +81,8 @@ non_cds_contents = non_cds_fasta_header + "\n" + non_cds
 #subprocess.call("esearch -db nucleotide -query \"AJ223353[accession]\" | efetch -format gb | grep \"CDS\" > remote_CDS.txt", shell=True)
 #29..409
 
-rem_cds = rem_seq[29:409]
-rem_non_cds = rem_seq[:29] + rem_seq[409:]
+rem_cds = rem_seq[28:409]
+rem_non_cds = rem_seq[:28] + rem_seq[409:]
 
 #get lengths of cds and non_cds and make fasta headers for their output files
 rem_cds_len = str(len(rem_cds))
