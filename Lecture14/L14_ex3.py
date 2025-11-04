@@ -42,44 +42,6 @@ for seq in OG_seqs:
         #print(seq)
         #seqs.remove(seq)
 
-
-#comps = set(comps)
 for comp in comps:
     print(comp)
 
-
-
-
-#seq = seqs[0]
-#seq_index = 1
-#while seq_index <= (len(seqs) - 1):
-#    index = 0
-#    sim_count = 0
-#    for base in seq:
-#        if base == (seqs[seq_index])[index]:
-#            sim_count += 1
-#
-#        index += 1
-#
-#    sim = (sim_count / len(seq)) * 100
-#    print(str(int(sim)) + '%')
-#
-#    seq_index += 1
-
-
-
-
-#seq_index = 1
-#
-#index = 0
-#sim_count = 0
-#seq = seqs[0]
-#
-#for base in seq:
-#    if base == (seqs[seq_index])[index]:
-#        sim_count += 1
-#
-#    index += 1
-#
-#sim = (sim_count / len(seq)) * 100
-#print(str(int(sim)) + '%')
